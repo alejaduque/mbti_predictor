@@ -13,4 +13,4 @@ Thus, our final datasets for the predictive model include information about the 
 
 The predictive model is stored in the "mbti_model.ipynb" file. 
 
-This is not a complete model, what you will see is an initial fit that tests how it initially performs with the data provided. We expect to continue retriving information from the translated texts in order to add more numerical data to every vector that represents each training data point. We also want to scale this model into classifying into the four main categories of the MBTI model (NF, NT, SF, ST). 
+This is not a complete model, what you will see is an initial fit that tests how it initially performs with the data provided. We expect to continue retriving information from the translated texts in order to add more numerical data to every vector that represents each training data point. We also want to scale this model into classifying into the four main categories of the MBTI model (NF, NT, SF, ST). Our model currently attempts to perform a binary classification between the NT and SF classes, which could be seen as opposites, we aim to scale this into a multi-class classification. 
